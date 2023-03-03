@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.bar {
+  height: 40px;
+  width: 40px;
+}
+
+.modal-container {
+  height: 100vh;
+  width: 80vw;
+  padding: 20px;
+}
+
+.home {
+  display: flex;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-top: 18px;
+}
+
+.name {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-button {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  background-color: #ffffff;
+  height: 100vh;
+}
